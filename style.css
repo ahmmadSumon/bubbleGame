@@ -1,0 +1,74 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center{
+    height: 80%;
+    width: 80%;
+    background-image: url(https://images.pexels.com/photos/268883/pexels-photo-268883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  object-fit: cover;
+}
+#topPart{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.elem1{
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#bottomPart{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.elem2{
+    height: 50px;
+    width: 50px;
+    background-color:lime;
+    border-radius: 50%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.elem2:hover{
+    background-color:rgb(4, 65, 4);
+    color: #fff;
+    transition: all ease .2s;
+    cursor: pointer;
+}
